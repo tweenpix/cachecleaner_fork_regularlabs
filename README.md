@@ -5,7 +5,7 @@ https://regularlabs.com/cachecleaner/
 Дописана часть функционала, которая позволяет очищать fastcgi_cache nginx для joomla
 
 Модификация затрагивает файл Cache.php
-
+[code]
 	public static function purge(){
   //....
   	//apexweb purge fastcgi_cache
@@ -44,5 +44,5 @@ https://regularlabs.com/cachecleaner/
 			return false;
 		}
 //////////////
-
+[/cod]
 При очистке кэша в Joomla, автоматически будет очищаться кэш fastcgi nginx
